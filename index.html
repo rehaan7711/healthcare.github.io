@@ -1,12 +1,181 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="with=device-width,initial-scale=0.1"
-    <title>Health Care Website</title>
-    <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="with=device-width, initial-scale=1.0">
+ <title>University website design - easy tutorials</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:wght@100;200;300;400;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet"
+href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>Hello</h1>
-    <selection class="header1"></selection>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png.jpeg"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">COURSE</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1>WELCOME TO HEALTHY CORNER</h1>
+        <p>We save lives and help you to create a mess free report wallet<br>you can also search up for nearest hospitals</p>
+        <a href="" class="hero-btn">visit us to know more</a>
+    </div>
+    </section>
+
+    <script> 
+    var navlinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+     
+    }
+    </script>
+<section class="course">
+    <h1>Healthcare benefits we offer</h1>
+    <p>Giving you the best advices from the best doctors.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Your health is our priority. Health is Wealth,
+            As health is the major concern for everyone
+            we have come up with web healthcare facilities.</p>
+        </div>
+    <div class="course-col">
+        <h3>degree</h3>
+        <p>Your health is our priority.
+        As health is the major concern for everyone
+        we have come up with web healthcare facilities.</p>
+    </div>
+    </div>
+</section>
+<section class="campus">
+    <h1>Our Global Mission</h1>
+    <p>Prevention is better than Cure,
+    We connect you to the best websites
+    which has 0 cost remedies for all health related problems.</p>
+
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/london.png">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+    </div>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/newyork.png">
+            <div class="layer">
+                <h3>NEW YORK</h3>
+            </div>
+    </div>
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/washington.png">
+            <div class="layer">
+                <h3>WASHINGTON</h3>
+            </div>
+         </div>
+    </div>
+
+</section>
+
+<!-----------facilities------------->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>we proide authentic verified remedies from the doctors that can be perfored during any emergency</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.png">
+            <h3>World Class Library</h3>
+            <p>Giving you the best advices from the best doctors.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Giving you the best advices from the best doctors.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Giving you the best advices from the best doctors.</p>
+        </div>
+    </div>
+</section>
+
+<!----------testimonials--------------->
+
+<section class="testimonials">
+    <h1>what our students says</h1>
+    <p>Giving you the best advices from the best doctors.</p>
+
+    <div class="row">
+     <div class="testimonial-col">
+        <img src="images/user1.jpg">
+     <div>
+        <p>Giving you the best advices from the best doctors</p>
+        <h3>DR.VRK</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i> 
+    </div>
+  </div>
+  <div class="testimonial-col">
+    <img src="images/user1.jpg">
+ <div>
+    <p>Giving you the best advices from the best doctors</p>
+    <h3>DR.JAGDISH</h3>
+    <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+  </div>
+ </div>
+</div>
+
+</section>
+
+<!--------call to action------------>
+
+<section class="cta">
+    <h1>Enroll for more updates</h1>
+    <a href="">CONTACT US</a>
+</section>
+
+<!-----Footer-------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Prevention is better than Cure,
+        We connect you to the best websites
+        which has 0 cost remedies for all health related problems.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-facebook"></i> Easy Tutorial</p>
+</section>
 </body>
 </html>
